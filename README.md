@@ -1,6 +1,9 @@
 # Pixelclustering
 Cluster pixels using simple BFS to find number of objects in grayscale image
 
+### Usage
+python pixelcluster.py -image=many.png
+
 ### Input:
 <img src="https://github.com/fatahfattah/Pixelclustering/blob/master/many.png?raw=true" width="400" height="400">
 

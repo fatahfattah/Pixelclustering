@@ -1,10 +1,7 @@
 
-import random
 from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
-from os import pardir
-from dataloader import load_input
 import argparse
 
 if __name__ == "__main__":
@@ -12,7 +9,7 @@ if __name__ == "__main__":
     parser.add_argument('-image', help='Provide input image', required=False)
     args = parser.parse_args()
 
-    image = args.image if args.image else "examples/example_image.tif"
+    image = args.image if args.image else "many.png"
 
     image = Image.open(image)
     image = image.resize((150, 150))
